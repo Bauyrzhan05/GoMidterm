@@ -1,0 +1,40 @@
+{
+  "orders": [
+    {
+      "id": "7c3b",
+      "userName": "Bauyzhan",
+      "items": [
+        {
+          "id": "68ef441d66a6991c67ed62bf",
+          "name": "Fruit Ice Cream",
+          "price": "18",
+          "quantity": 1
+        },
+        {
+          "id": "68ef446566a6991c67ed62c1",
+          "name": "Chicken Sandwich",
+          "price": "21",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 39,
+      "status": "In Progress",
+      "createdAt": "2025-10-30T16:19:09.783Z"
+    },
+    {
+      "id": "54b1",
+      "userName": "Aruzhan",
+      "items": [
+        {
+          "id": "68ef451866a6991c67ed62c5",
+          "name": "Garlic Mushroom",
+          "price": "18",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 18,
+      "status": "Delivered",
+      "createdAt": "2025-10-30T16:56:10.288Z"
+    }
+  ]
+}

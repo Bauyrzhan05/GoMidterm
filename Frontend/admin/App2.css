@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    min-height: 100hv;
+    background-color: #fcfcfc;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #a9a9a9;
+}
+
+.app2-content{
+    display: flex;
+    
+}
+
+.app2-content-right{
+    width: 100%;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.curser{
+    cursor: pointer;
+}
+/* ------------------Sidebar-------------------- */
+.sidebar{
+    width: 18%;
+    min-height: 100vh;
+    border: 1.5px solid #a9a9a9;
+    border-top: 0;
+    font-size: max(1vw, 10px);
+}
+
+.sidebar-options{
+    padding-top: 50px;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #a9a9a9;
+    border-right: 0;
+    padding: 8px 10px;
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+}
+
+.sidebar-option.active{
+    background-color: #fff0ed;
+    border-color: tomato;
+}
+
+@media(max-width: 900px){
+    .sidebar-option p{
+        display: none;
+    }
+}
+
+/* ------------------GoNav------------------ */
+.navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4%;
+}
+
+.navbar2 .logo{
+    width: max(20%, 100px);
+}
+
+.navbar2 .profile2{
+    width: 60px;
+}
+
+.profile2{
+    border-radius: 50%;
+    height: 40px;
+}
